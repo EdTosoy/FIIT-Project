@@ -1,0 +1,26 @@
+//BASICS
+@import "./1-basics/colors-selection";
+@import "./1-basics/typography";
+@import "./1-basics/basic-setup";
+
+//COMPONENTS
+@import "./2-components/loader";
+@import "./2-components/buttons";
+@import "./2-components/heading";
+
+// lAYOUTS
+@import "./3-layouts/main-layout";
+@import "./3-layouts/left-panel";
+@import "./3-layouts/break-points";
+@import "./3-layouts/footer";
+
+//SECTIONS
+@import "./4-sections/home";
+@import "./4-sections/get-ready";
+@import "./4-sections/exercises";
+@import "./4-sections/pricing-plans";
+@import "./4-sections/contacts";
+
+//ANIMATION
+@import "./5-animations/animations";
+@import "./5-animations/exercises-animations";
