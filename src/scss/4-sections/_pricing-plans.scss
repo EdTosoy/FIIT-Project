@@ -1,0 +1,66 @@
+#pricing-plan {
+  background-color: $dark-gray;
+}
+.plans {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-box {
+  width: 30%;
+  background-color: $white;
+  border-radius: 5px;
+  box-shadow: 0 5px 2px #cdcdcd;
+  display: flex;
+  flex-direction: column;
+
+  div {
+    padding: 1rem;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 1rem;
+  }
+  .plan {
+    background: #f8f8f8;
+    border-top-left-radius: -5px;
+    border-top-right-radius: -5px;
+
+    h3 {
+      font-size: 1.2em;
+      font-weight: 100;
+      margin-bottom: 1em;
+      text-align: center;
+    }
+
+    .price {
+      font-size: 3em;
+      margin-bottom: 10px;
+      font-weight: 100;
+      color: $red;
+      text-align: center;
+    }
+
+    span {
+      font-size: 0.5em;
+      font-weight: 300;
+    }
+    .price-meal {
+      text-align: center;
+    }
+    .premium {
+      color: $red;
+    }
+  }
+  .details {
+    flex-grow: 1;
+    li {
+      padding: 3px 0;
+      ion-icon {
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .button {
+    text-align: center;
+    border: 0;
+  }
+}

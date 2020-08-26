@@ -1,0 +1,69 @@
+#exercises {
+  padding: 0;
+  .target-navigation {
+    background-color: $dark-blue;
+    color: white;
+    padding: 1rem 50px;
+    margin-bottom: 0.5rem;
+    ul {
+      display: flex;
+    }
+    li {
+      font-size: 1.5rem;
+      margin-right: 2rem;
+      cursor: pointer;
+      &:hover {
+        color: $red;
+      }
+    }
+    .active {
+      color: $red;
+    }
+  }
+  .exercises-showcase {
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: -10px;
+    margin-bottom: 2rem;
+    height: 578px;
+    overflow: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      width: 5px;
+      background-color: white;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $dark-blue;
+      border-radius: 4px;
+    }
+
+    .card {
+      text-align: center;
+      margin: 10px;
+      padding: 10px 5px;
+      border-radius: 8px;
+      background-color: $dark-gray;
+
+      &:hover {
+        box-shadow: 0 0 15px black;
+      }
+      .img-wrapper {
+        height: 14vw;
+        width: 14vw;
+        margin: 5px auto 0 auto;
+        border-radius: 8px;
+        background-size: cover;
+      }
+      .label {
+        font-weight: 100;
+        color: $white;
+        margin-top: 5px;
+
+        h1 {
+          font-weight: 100;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+#contact {
+  background-color: $dark-blue;
+}
+.form-wrapper {
+  form {
+    margin: 0 auto;
+    width: 68%;
+
+    .row {
+      display: flex;
+      font-size: 1rem;
+
+      span {
+        color: white;
+        font-size: 1.1em;
+        margin: 10px 5px;
+      }
+
+      label {
+        width: 33%;
+        padding: 0.5em;
+        color: rgb(189, 189, 189);
+        font-size: 1.1em;
+      }
+
+      input,
+      select,
+      textarea {
+        color: $red;
+        padding: 0.5em;
+        width: 66%;
+        border-radius: 3px;
+        border: 2px solid $dark-blue;
+        font-size: 1.1em;
+      }
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        margin: 10px 5px 10px 1px;
+        cursor: pointer;
+      }
+      textarea {
+        font-size: 1.1em;
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

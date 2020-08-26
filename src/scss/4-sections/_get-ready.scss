@@ -1,0 +1,66 @@
+#get-ready {
+  background-image: url("/img/get-ready-background.png");
+  background-size: cover;
+  background-position: center;
+  background-position-x: -1px;
+  display: flex;
+  justify-content: space-between;
+
+  .get-ready-text {
+    width: 50%;
+    max-width: 30rem;
+    font-size: 1rem;
+    h1 {
+      color: $white;
+      font-size: 2.7em;
+      font-weight: 100;
+      margin-bottom: 0.5rem;
+    }
+    h3 {
+      color: $gray;
+      font-weight: 100;
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+    p {
+      color: $white;
+      font-size: 1.4em;
+      margin-bottom: 2em;
+    }
+  }
+
+  figure {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 10vw);
+    gap: 10px;
+    align-content: start;
+
+    :nth-child(1) {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("/img/Arms-stretch.png");
+    }
+    :nth-child(2) {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("/img/Runners-lunge.png");
+    }
+    :nth-child(3) {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("/img/Downward-dog.png");
+    }
+    :nth-child(4) {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("/img/Leg-stretch.png");
+    }
+    :nth-child(5) {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("/img/Jumping-jacks.png");
+    }
+    :nth-child(6) {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("/img/Light-jog.png");
+    }
+  }
+  .square {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+}
