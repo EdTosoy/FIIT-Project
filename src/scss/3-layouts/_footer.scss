@@ -1,0 +1,51 @@
+footer {
+  background-color: $black;
+  padding-bottom: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  form {
+    width: 310px;
+    font-size: 1rem;
+    h1 {
+      font-size: 2em;
+    }
+    p {
+      color: $gray;
+      margin-bottom: 5px;
+      font-size: 0.9em;
+    }
+    .row {
+      display: flex;
+    }
+    input {
+      height: 2em;
+      flex-grow: 1;
+      padding: 5px;
+    }
+    .send {
+      background-color: white;
+      color: $red;
+      display: grid;
+      place-items: center;
+      font-size: 1.3em;
+      width: 20px;
+    }
+  }
+  .others {
+    display: flex;
+    justify-content: space-between;
+  }
+  .other {
+    font-size: 1rem;
+    margin: 0 2rem;
+    h2 {
+      font-size: 1.6em;
+      font-weight: 100;
+      margin-bottom: 10px;
+    }
+    ion-icon {
+      margin-right: 5px;
+    }
+  }
+}

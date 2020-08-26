@@ -1,0 +1,13 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.left-panel {
+  grid-column: 1/2;
+}
+.main-content,
+footer {
+  grid-column: 2/-1;
+  padding: 50px;
+}

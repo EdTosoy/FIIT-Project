@@ -1,0 +1,33 @@
+.left-panel {
+  position: sticky;
+  top: 0;
+  background-color: $black;
+  color: $gray;
+  height: 100vh;
+  .menu {
+    display: none;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+  .logo {
+    width: 150px;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 140px;
+  }
+  .navigation {
+    font-size: 1.5rem;
+  }
+  li {
+    padding: 5px 2rem;
+  }
+  li:hover {
+    color: white;
+  }
+  .selected {
+    border-left: 4px solid $red;
+    color: white;
+  }
+}
