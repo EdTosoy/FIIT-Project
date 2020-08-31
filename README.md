@@ -6,7 +6,7 @@
   The anywhere Work Out Partner that fits for everyone, FIIT offers wide viariety of Body/Muscle Targets and encourage the Users to purchase their membership. Built with HTML5, SCSS(CSS), JavaScript, Firebase, Parcel as bundler, and Scroll Out for scroll animations.
 </p>
 
-![demo](https://raw.githubusercontent.com/EdTosoy/FIIT-Project/Demo.png)
+![demo](https://raw.githubusercontent.com/EdTosoy/FIIT-Project/master/Demo.png)
 
 ## Built With
 
@@ -70,5 +70,5 @@
 
 ## Screen Shots
 
-![demo](https://raw.githubusercontent.com/EdTosoy/FIIT-Project/ScreenShot1.png)
-![demo](https://raw.githubusercontent.com/EdTosoy/FIIT-Project/ScreenShot2.png)
+![demo](https://github.com/EdTosoy/FIIT-Project/blob/master/ScreenShot1.png?raw=true)
+![demo](https://github.com/EdTosoy/FIIT-Project/blob/master/ScreenShot2.png?raw=true)
